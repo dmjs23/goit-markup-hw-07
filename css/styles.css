@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-color: #2196f3;
   --main-bacgraund-color: #2f303a;
   --secondary-bacgraund-color: #f5f4fa;
@@ -6,9 +6,9 @@
   --secondary-font: 'Releway', sans-serif;
   --main-icon-color: #757575;
   /*dostępne grubosci Releway 700 */
-  /*dostępne grubosci Roboto 400, 500, 700, 900 */
-}
-body {
+/*dostępne grubosci Roboto 400, 500, 700, 900 
+} */
+/* body {
   font-family: var(--main-font);
   color: #000;
 }
@@ -62,7 +62,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
-}
+} */
 /* ----- HEADER ----- */
 .head_container .container {
   display: flex;
@@ -73,7 +73,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.logo {
+/* .logo {
   font-size: 26px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -82,7 +82,7 @@ ul {
   letter-spacing: 0.03em;
   margin-left: 215px;
   margin-right: 95px;
-}
+} */
 .start {
   color: #000;
 }

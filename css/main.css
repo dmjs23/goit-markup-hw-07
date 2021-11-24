@@ -1,0 +1,86 @@
+@charset "UTF-8";
+:root {
+  --main-color: #2196f3;
+  --main-bacgraund-color: #2f303a;
+  --secondary-bacgraund-color: #f5f4fa;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Releway', sans-serif;
+  --main-icon-color: #757575;
+  /*dostępne grubosci Releway 700 */
+  /*dostępne grubosci Roboto 400, 500, 700, 900 */
+}
+
+body {
+  font-family: var(--main-font);
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.transform_color {
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transform_shadow {
+  transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transform_button {
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 0 0 94px;
+}
+
+.logo {
+  font-size: 26px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-left: 215px;
+  margin-right: 95px;
+}
+/*# sourceMappingURL=main.css.map */
