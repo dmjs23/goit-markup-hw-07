@@ -13,8 +13,8 @@
   fill: #fff;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon_footer_back:hover,
-.icon_footer_back:focus {
-  background-color: $main-color;
+  &:focus,
+  &:hover {
+    background-color: $main-color;
+  }
 }
