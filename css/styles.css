@@ -1,13 +1,13 @@
-:root {
+/* :root {
   --main-color: #2196f3;
   --main-bacgraund-color: #2f303a;
   --secondary-bacgraund-color: #f5f4fa;
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Releway', sans-serif;
-  --main-icon-color: #757575;
+  --main-icon-color: #757575; */
   /*dostępne grubosci Releway 700 */
   /*dostępne grubosci Roboto 400, 500, 700, 900 */
-}
+/* }
 body {
   font-family: var(--main-font);
   color: #000;
@@ -28,33 +28,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-.transform_color {
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.transform_shadow {
-  transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.transform_button {
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.decoration_leters {
-  color: var(--main-color);
-}
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
+
 .container {
   width: 1600px;
   margin: 0 auto;
 }
-.section {
-  padding: 0 0 94px;
-}
+
 .tittle {
   font-style: normal;
   font-weight: bold;
@@ -65,7 +44,7 @@ ul {
   color: #212121;
 }
 /* ------------------ HEADER ------------------------------ */
-.page-header {
+/*.page-header {
   display: flex;
   align-items: center;
   min-height: 80px;
@@ -74,9 +53,9 @@ ul {
   display: flex;
   align-items: center;
   min-height: 80px;
-}
+} */
 
-.logo {
+/* .logo {
   font-size: 26px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -96,10 +75,10 @@ ul {
 }
 .logo__text {
   color: var(--main-color);
-}
+} */
 
 /*-----------menu-----------*/
-.manu {
+/* .manu {
   display: flex;
   align-items: center;
 }
@@ -133,11 +112,11 @@ ul {
   width: 53px;
   border-bottom: 2px solid #2196f3;
   border-radius: 2px;
-}
+} */
 /*-----------menu-----------*/
 
 /*----------------linki kontaktowe-------------*/
-.contact-link {
+/* .contact-link {
   display: flex;
   font-size: 14px;
   font-weight: 600;
@@ -163,16 +142,16 @@ ul {
   height: 12px;
   width: 16px;
   margin-right: 10px;
-}
+} */
 /*----------------linki kontaktowe-------------*/
 
-.contact-link__element:hover,
+/* .contact-link__element:hover,
 .contact-link__element:focus,
 .menu__item:hover,
 .menu__item:focus {
   color: var(--main-color);
   fill: var(--main-color);
-}
+} */
 /* ------------------------ END HEADER ----------------------- */
 
 /* ---------------------------- MAIN ------------------------- */
@@ -371,15 +350,14 @@ ul {
 /* -------------------------- END MAIN -------------------------- */
 
 /* ----------------------- PORTFOLIO MAIN ----------------------- */
- 
 
 /*------------------buttons----------------------*/
-.portfolio_section_btn__list{
+.portfolio_section_btn__list {
   display: flex;
   justify-content: center;
   list-style: none;
 }
- .portfolio_section_btn__btn {
+.portfolio_section_btn__btn {
   cursor: pointer;
   height: 38px;
   margin-right: 8px;
@@ -404,10 +382,10 @@ ul {
 }
 /*------------------buttons----------------------*/
 /*------------------galeria----------------------*/
-.portfolio_gelery{
-  padding:  0 0 94px;
+.portfolio_gelery {
+  padding: 0 0 94px;
 }
-.container--portfolio_gelery{
+.container--portfolio_gelery {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -445,15 +423,15 @@ ul {
   margin: 15px;
   list-style: none;
 }
-.portfolio_gelery__element{
+.portfolio_gelery__element {
   margin: 15px;
   border: 1px solid #eee;
   transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio_gelery__paragraf{
+.portfolio_gelery__paragraf {
   margin: 4px 24px 20px;
 }
-.portfolio_gelery__title{
+.portfolio_gelery__title {
   margin: 20px 24px 0;
 }
 

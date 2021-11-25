@@ -28,25 +28,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-.transform_color {
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.transform_shadow {
-  transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.transform_button {
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-
 .tittle {
   font-style: normal;
   font-weight: bold;
