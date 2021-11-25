@@ -1,15 +1,21 @@
-:root {
-  --main-color: #2196f3;
-  --main-bacgraund-color: #2f303a;
-  --secondary-bacgraund-color: #f5f4fa;
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Releway', sans-serif;
-  --main-icon-color: #757575;
-  /*dostępne grubosci Releway 700 */
-  /*dostępne grubosci Roboto 400, 500, 700, 900 */
-}
+$main-color: #2196f3;
+$main-bacgraund-color: #2f303a;
+$secondary-bacgraund-color: #f5f4fa;
+$main-icon-color: #757575;
+$main-font: 'Roboto', sans-serif;
+$secondary-font: 'Releway', sans-serif;
+// :root {
+//   --main-color: #2196f3;
+//   --main-bacgraund-color: #2f303a;
+//   --secondary-bacgraund-color: #f5f4fa;
+//   --main-font: 'Roboto', sans-serif;
+//   --secondary-font: 'Releway', sans-serif;
+//   --main-icon-color: #757575;
+// /*dostępne grubosci Releway 700 */
+// /*dostępne grubosci Roboto 400, 500, 700, 900 */
+//}
 body {
-  font-family: var(--main-font);
+  font-family: $main-font;
   color: #000;
 }
 h1,
@@ -37,4 +43,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
+  &--margin {
+    margin-bottom: 50px;
+  }
 }

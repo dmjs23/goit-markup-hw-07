@@ -7,7 +7,7 @@
 }
 .contact-link__element {
   color: #757575;
-  fill: var(--main-icon-color);
+  fill: $main-icon-color;
   text-decoration: none;
   margin-right: 50px;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -29,6 +29,6 @@
 .contact-link__element:focus,
 .menu__item:hover,
 .menu__item:focus {
-  color: var(--main-color);
-  fill: var(--main-color);
+  color: $main-color;
+  fill: $main-color;
 }

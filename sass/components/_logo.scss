@@ -1,6 +1,6 @@
 .logo {
   font-size: 26px;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-weight: 700;
   font-style: normal;
   line-height: 31px;
@@ -17,5 +17,5 @@
   color: #fff;
 }
 .logo__text {
-  color: var(--main-color);
+  color: $main-color;
 }
