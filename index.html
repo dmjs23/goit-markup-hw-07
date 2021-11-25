@@ -16,37 +16,34 @@
     <title>Studiov</title>
   </head>
   <body>
-    <header class="head_container">
-      <div class="container">
+    <header class="page-header">
+      <div class="container container--header">
         <nav class="manu">
-          <a href="./index.html" class="logo start link"
-            ><span class="decoration_leters">Web</span>Studio</a
-          >
-          <ul class="nav_container list">
-            <li class="menu-list">
-              <a
-                class="menu-item link transform_color decoration_leters menu-item_now"
-                href="./index.html"
-                >Agencja</a
-              >
+          <a href="./index.html" class="logo logo--start"
+            ><span class="logo__text">Web</span>Studio
+          </a>
+
+          <ul class="menu__list">
+            <li class="menu__element">
+              <a class="menu__item menu__item--now" href="./index.html">Agencja</a>
             </li>
-            <li class="menu-list">
-              <a class="menu-item link transform_color" href="./portfolio.html">Portfolio</a>
+            <li class="menu__element">
+              <a class="menu__item" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="menu-list">
-              <a class="menu-item link transform_color" href="/Kontakt">Kontakt</a>
+            <li class="menu__element menu__element--last">
+              <a class="menu__item" href="/Kontakt">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <div class="adres_link">
-          <a class="link head_link transform_color" href=":mailto:info@devstudio.com"
-            ><svg class="icon icon-envelope mail">
+        <div class="contact-link">
+          <a class="contact-link__element" href=":mailto:info@devstudio.com"
+            ><svg class="contact-link__mail">
               <use xlink:href="images/my_sprite.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com
           </a>
-          <a class="link head_link transform_color" href="tel:+48123456789">
-            <svg class="icon icon-smartphone tel">
+          <a class="contact-link__element contact-link__element--last" href="tel:+48123456789">
+            <svg class="contact-link__tel">
               <use xlink:href="images/my_sprite.svg#icon-smartphone"></use>
             </svg>
             +48 123 456 789
@@ -54,71 +51,73 @@
         </div>
       </div>
     </header>
-    <main>
-      <section class="main_section_1 section">
-        <div class="container">
-          <div class="section_1_items">
-            <div>
-              <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+
+    <main class="page-main">
+      <section class="title_section">
+        <div class="container container--title_section">
+          <div class="title_section__container">
+            <div class="title_section__title_container">
+              <h1 class="title_section__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             </div>
             <button type="button" class="button" data-modal-open>Zamów usługe</button>
           </div>
         </div>
       </section>
-      <section class="main_section_2 section">
-        <div class="container">
-          <ul>
-            <li>
-              <div class="section_2_div">
-                <div class="icon_section_2">
-                  <svg class="icon icon-antenna_1">
+
+      <section class="info_section">
+        <div class="container container--info_section">
+          <ul class="info_section__list">
+            <li class="info_section__element">
+              <div class="info_content">
+                <div class="info_content__icon_holder">
+                  <svg class="info_content__icon">
                     <use xlink:href="images/my_sprite.svg#icon-antenna_1"></use>
                   </svg>
                 </div>
                 <h2>Lorem Ipsum</h2>
-                <p>
+                <p class="info_content__paragraf">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
               </div>
             </li>
-            <li>
-              <div class="section_2_div">
-                <div class="icon_section_2">
-                  <svg class="icon icon-antenna_1">
+            <li class="info_section__element">
+              <div class="info_content">
+                <div class="info_content__icon_holder">
+                  <svg class="info_content__icon">
                     <use xlink:href="images/my_sprite.svg#icon-clock_1"></use>
                   </svg>
                 </div>
                 <h2>Lorem Ipsum</h2>
-                <p>
+                <p class="info_content__paragraf">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
               </div>
             </li>
-            <li>
-              <div class="section_2_div">
-                <div class="icon_section_2">
-                  <svg class="icon icon-antenna_1">
+            <li class="info_section__element">
+              <div class="info_content">
+                <div class="info_content__icon_holder">
+                  <svg class="info_content__icon">
                     <use xlink:href="images/my_sprite.svg#icon-diagram_1"></use>
                   </svg>
                 </div>
                 <h2>Lorem Ipsum</h2>
-                <p>
+                <p class="info_content__paragraf">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
               </div>
             </li>
-            <li>
-              <div class="section_2_div">
-                <div class="icon_section_2">
-                  <svg class="icon icon-antenna_1">
+            <li class="info_section__element">
+              <div class="info_content">
+                <div class="info_content__icon_holder">
+                  <svg class="info_content__icon">
                     <use xlink:href="images/my_sprite.svg#icon-astronaut_1"></use>
                   </svg>
                 </div>
                 <h2>Lorem Ipsum</h2>
-                <p>
+                <p class="info_content__paragraf">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
@@ -128,12 +127,12 @@
         </div>
       </section>
 
-      <section class="main_section_3 section">
+      <section class="tech_section">
         <div class="container">
-          <h2 class="tittle">Czym się zajmujemy</h2>
-          <ul class="list">
-            <li>
-              <figure class="section_3_figure">
+          <h2 class="tittle tittle--margin">Czym się zajmujemy</h2>
+          <ul class="tech_section__list">
+            <li class="tech_section__element">
+              <figure class="tech_section__image">
                 <img
                   src="images/main_image4.jpg"
                   alt="zdjecie 1"
@@ -141,11 +140,11 @@
                   height="294"
                   alt="zdjecie 1"
                 />
-                <figcaption>Aplikacje Komputerowe</figcaption>
+                <figcaption class="tech_section__signature">Aplikacje Komputerowe</figcaption>
               </figure>
             </li>
-            <li>
-              <figure class="section_3_figure">
+            <li class="tech_section__element">
+              <figure class="tech_section__image">
                 <img
                   src="images/main_image5.jpg"
                   alt="zdjecie 2"
@@ -153,11 +152,11 @@
                   height="294"
                   alt="zdjecie 2"
                 />
-                <figcaption>Aplikacje mobilne</figcaption>
+                <figcaption class="tech_section__signature">Aplikacje mobilne</figcaption>
               </figure>
             </li>
-            <li>
-              <figure class="section_3_figure">
+            <li class="tech_section__element">
+              <figure class="tech_section__image">
                 <img
                   src="images/main_image6.jpg"
                   alt="zdjecie 3"
@@ -165,18 +164,18 @@
                   height="294"
                   alt="zdjecie 3"
                 />
-                <figcaption>ROZWIĄZANIA graficzne</figcaption>
+                <figcaption class="tech_section__signature">ROZWIĄZANIA graficzne</figcaption>
               </figure>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="main_section_4 section">
+      <section class="team_section">
         <div class="container">
-          <h2 class="tittle">Nasz zaspół</h2>
-          <ul class="list">
-            <li class="section_4_main_list">
+          <h2 class="tittle tittle--margin">Nasz zaspół</h2>
+          <ul class="team_section__list">
+            <li class="team_section__element">
               <img
                 src="images/main_image3.jpg"
                 alt="gość w okularach i w brodzie"
@@ -185,38 +184,38 @@
               />
               <h3>John Doe</h3>
               <p>Product Designer</p>
-              <ul class="list">
+              <ul class="team_section__list">
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-3"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-1"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-2"></use>
                     </svg>
                   </div>
                 </li>
               </ul>
             </li>
-            <li class="section_4_main_list">
+            <li class="team_section__element">
               <img
                 src="images/main_image2.jpg"
                 alt="gość bez okularach i w brodzie"
@@ -225,38 +224,38 @@
               />
               <h3>John Doe</h3>
               <p>Frontend Developer</p>
-              <ul class="list">
+              <ul class="team_section__list">
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-3"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-1"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-2"></use>
                     </svg>
                   </div>
                 </li>
               </ul>
             </li>
-            <li class="section_4_main_list">
+            <li class="team_section__element">
               <img
                 src="images/main_image1.jpg"
                 alt="gość bez okularach i w brodzie"
@@ -265,38 +264,38 @@
               />
               <h3>John Doe</h3>
               <p>Marketing</p>
-              <ul class="list">
+              <ul class="team_section__list">
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-3"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-1"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-2"></use>
                     </svg>
                   </div>
                 </li>
               </ul>
             </li>
-            <li class="section_4_main_list">
+            <li class="team_section__element">
               <img
                 src="images/main_image0.jpg"
                 alt="gość w okularach i brodzie"
@@ -305,31 +304,31 @@
               />
               <h3>John Doe</h3>
               <p>UI Designer</p>
-              <ul class="list">
+              <ul class="team_section__list">
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-3"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-1"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
-                  <div class="icon-team transform_color">
-                    <svg class="icon_socjal_team" width="44px" height="44px">
+                  <div class="team_section__item">
+                    <svg width="44px" height="44px">
                       <use xlink:href="images/my_sprite.svg#icon-Ellipse-2"></use>
                     </svg>
                   </div>
@@ -339,48 +338,49 @@
           </ul>
         </div>
       </section>
-      <section class="main_section_5 section">
+
+      <section class="partners_section">
         <div class="container">
-          <h2 class="tittle">Nasi klienci</h2>
-          <ul class="list">
+          <h2 class="tittle tittle--margin">Nasi klienci</h2>
+          <ul class="partners_section__list">
             <li>
-              <div class="icon-client transform_color">
-                <svg class="icon_client_logo" width="106px" height="60px">
+              <div class="icon-client">
+                <svg width="106px" height="60px">
                   <use xlink:href="images/my_sprite.svg#icon-Logo_2"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon-client transform_color">
-                <svg class="icon_client_logo" width="106px" height="60px">
+              <div class="icon-client">
+                <svg width="106px" height="60px">
                   <use xlink:href="images/my_sprite.svg#icon-Logo_1"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon-client transform_color">
-                <svg class="icon_client_logo" width="106px" height="60px">
+              <div class="icon-client">
+                <svg width="106px" height="60px">
                   <use xlink:href="images/my_sprite.svg#icon-Logo_5"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon-client transform_color">
-                <svg class="icon_client_logo" width="106px" height="60px">
+              <div class="icon-client">
+                <svg width="106px" height="60px">
                   <use xlink:href="images/my_sprite.svg#icon-Logo_4"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon-client transform_color">
-                <svg class="icon_client_logo" width="106px" height="60px">
+              <div class="icon-client">
+                <svg width="106px" height="60px">
                   <use xlink:href="images/my_sprite.svg#icon-Logo_3"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon-client transform_color">
-                <svg class="icon_client_logo" width="106px" height="60px">
+              <div class="icon-client">
+                <svg width="106px" height="60px">
                   <use xlink:href="images/my_sprite.svg#icon-Logo"></use>
                 </svg>
               </div>
@@ -389,59 +389,62 @@
         </div>
       </section>
     </main>
-    <footer class="footer_designed footer_backgraund_color">
-      <div class="container flex">
-        <div class="container_foot">
-          <a href="./index.html" class="logo end link"
-            ><span class="decoration_leters">Web</span>Studio</a
-          >
-          <address class="footer_adress">
-            <ul class="list">
-              <li>m. Warszawa, Aleja Jerozolimska 21</li>
-              <li class="footer_address">info@example.com</li>
-              <li class="footer_address">+48 123 456 789</li>
+
+    <footer class="footer_designed">
+      <div class="container container--flex">
+        <div class="container_adress">
+          <a href="./index.html" class="logo logo--end"
+            ><span class="logo__text">Web</span>Studio
+          </a>
+          <address class="container_adress__contet">
+            <ul class="container_adress__list">
+              <li class="container_element">m. Warszawa, Aleja Jerozolimska 21</li>
+              <li class="container_element container_element--dim">info@example.com</li>
+              <li class="container_element container_element--dim">+48 123 456 789</li>
             </ul>
           </address>
         </div>
-        <div class="container_foot">
-          <h3>DOŁĄCZ DO NAS</h3>
-          <ul class="list join">
+
+        <div class="container_joinAs">
+          <h3 class="container_joinAs__title">DOŁĄCZ DO NAS</h3>
+          <ul class="container_joinAs__list">
             <li>
-              <div class="icon_footer_back transform_color">
-                <svg class="icon_footer" width="44px" height="44px">
+              <div class="icon_footer_back">
+                <svg width="44px" height="44px">
                   <use xlink:href="images/my_sprite.svg#icon-Ellipse-3"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon_footer_back transform_color">
-                <svg class="icon_footer" width="44px" height="44px">
+              <div class="icon_footer_back">
+                <svg width="44px" height="44px">
                   <use xlink:href="images/my_sprite.svg#icon-Ellipse"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon_footer_back transform_color">
-                <svg class="icon_footer" width="44px" height="44px">
+              <div class="icon_footer_back">
+                <svg width="44px" height="44px">
                   <use xlink:href="images/my_sprite.svg#icon-Ellipse-1"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="icon_footer_back transform_color">
-                <svg class="icon_footer" width="44px" height="44px">
+              <div class="icon_footer_back">
+                <svg width="44px" height="44px">
                   <use xlink:href="images/my_sprite.svg#icon-Ellipse-2"></use>
                 </svg>
               </div>
             </li>
           </ul>
         </div>
-        <div class="container_foot">
-          <h3>Zapisz się do newslettera</h3>
-          <form class="flex">
-            <input class="foot_mail" type="email" placeholder="E-mail" />
-            <button class="btn_send" type="submit">
-              <p>Zapisz się</p>
+
+        <div class="container_newsletter">
+          <h3 class="container_newsletter__title">Zapisz się do newslettera</h3>
+          <form class="container_newsletter__form">
+            <input class="container_newsletter__input_mail" type="email" placeholder="E-mail" />
+            <button class="container_newsletter__btn_send" type="submit">
+              <span>Zapisz się</span>
               <svg class="icon_send" width="106px" height="60px">
                 <use xlink:href="images/my_sprite.svg#icon-icon-send"></use>
               </svg>
@@ -459,21 +462,21 @@
           <form class="modal__form">
             <label for="firstname" class="modal__form_label">
               Imię
-              <svg class="icon_send icon__modal">
+              <svg class="icon__modal">
                 <use xlink:href="images/my_sprite.svg#icon-modal-person"></use>
               </svg>
             </label>
             <input type="text" name="firstmane" id="firstname" class="modal__form_input" />
             <label for="tel" class="modal__form_label">
               Telefon
-              <svg class="icon_send icon__modal">
+              <svg class="icon__modal">
                 <use xlink:href="images/my_sprite.svg#icon-modal-tel"></use>
               </svg>
             </label>
             <input type="tel" name="tel" id="tel" class="modal__form_input" />
             <label for="email" class="modal__form_label">
               Email
-              <svg class="icon_send icon__modal">
+              <svg class="icon__modal">
                 <use xlink:href="images/my_sprite.svg#icon-modal-mail"></use>
               </svg>
             </label>
@@ -492,8 +495,8 @@
                 <a href="/" class="modal__form_link">Politykę Prywatności.</a></label
               >
             </div>
-            <div class="btn_send_modal">
-              <button class="btn_send" type="submit">Wyślij</button>
+            <div class="send_modal">
+              <button class="send_modal__btn" type="submit">Wyślij</button>
             </div>
           </form>
         </div>
